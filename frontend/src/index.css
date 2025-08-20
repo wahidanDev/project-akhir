@@ -3,12 +3,8 @@
 
 @import "tailwindcss";
 
-body {
-  background-color: antiquewhite;
-}
 
 .font-rubik {
   font-family: 'Rubik', sans-serif;
-  
 }
 

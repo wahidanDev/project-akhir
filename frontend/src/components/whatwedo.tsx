@@ -5,7 +5,7 @@ interface CardData {
   description: string;
   logo: React.ReactNode;
   arrowButton: React.ReactNode;
-  image?: React.ReactNode[]; // <-- array of React nodes
+  image?: React.ReactNode[]; 
   caption?: string;
 }
 
@@ -21,7 +21,11 @@ const cardItems: CardData[] = [
       <img key="bca" src="src/assets/bca.png" alt="BCA" className="h-6" />,
     ],
     caption: 'Payment options',
-    arrowButton: <ArrowUpRight size={16} />,
+    arrowButton: (
+  <span className="rounded-full border border-gray-400 p-3 inline-flex items-center justify-center">
+    <ArrowUpRight size={18} />
+  </span>
+),
   },
   {
     title: 'Zakat',
@@ -29,7 +33,11 @@ const cardItems: CardData[] = [
     description:
       'Salurkan zakat Anda dengan mudah dan aman melalui platform kami untuk membantu yang berhak menerimanya.',
     caption: '#ZakatUntukSemua',
-    arrowButton: <ArrowUpRight size={16} />,
+    arrowButton: (
+  <span className="rounded-full border border-gray-400 p-3 inline-flex items-center justify-center">
+    <ArrowUpRight size={18} />
+  </span>
+),
   },
   {
     title: 'Jadi Relawan',
@@ -37,7 +45,11 @@ const cardItems: CardData[] = [
     description:
       'Gabung sebagai relawan dan ambil bagian langsung dalam kegiatan sosial kami untuk membuat perubahan nyata.',
     caption: 'Bergabung dengan grup kita',
-    arrowButton: <ArrowUpRight size={16} />,
+    arrowButton: (
+  <span className="rounded-full border border-gray-400 p-3 inline-flex items-center justify-center">
+    <ArrowUpRight size={18} />
+  </span>
+),
   },
 ];
 

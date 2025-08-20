@@ -1,7 +1,7 @@
 import { ArrowUpRight } from 'lucide-react';
 const Hero = () => {
   return (
-    <section className="text-center pt-26">
+    <section className="text-center pt-26 bg-gradient-to-t from-[antiquewhite] to-white pb-20">
 
      
       <div className="flex items-center justify-center space-x-8 mb-6">
