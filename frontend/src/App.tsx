@@ -1,3 +1,4 @@
+import DonateCarousel from './components/donate-carousel';
 import Hero from './components/hero';
 import Navbar from './components/navbar';
 import WhatWeDo from './components/whatwedo';
@@ -13,6 +14,7 @@ function App() {
       <div className='pt-24'>
         <WhatWeDo />
       </div>
+      <DonateCarousel />
       
     </>
   );
